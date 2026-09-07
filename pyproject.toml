@@ -27,7 +27,7 @@ requests = "2.32.3"
 inputimeout = "1.0.4"
 service-identity = "^24.1.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 Twisted = "24.3.0"
 pyOpenSSL = "24.1.0"
 protobuf = "7.36.0"
